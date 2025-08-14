@@ -17,4 +17,4 @@ COPY src/Random_String.java /app/Random_String.java
 
 RUN javac Random_String.java
 
-CMD ["java", "Main"]
+CMD ["java", "Random_String"]
