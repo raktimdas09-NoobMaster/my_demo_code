@@ -12,9 +12,9 @@ LABEL build_date="2025-08-14"
 WORKDIR /app
 
 # Step 4: Copy the JAR file into the container
-COPY src/Random_String.java /app/Main.java
+COPY src/Random_String.java /app/Random_String.java
 # Adjust the path if your JAR file is somewhere else
 
-RUN javac Main.java
+RUN javac Random_String.java
 
 CMD ["java", "Main"]
