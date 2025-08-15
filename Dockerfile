@@ -13,6 +13,6 @@ WORKDIR /app
 COPY src/ArrayIntToString /app/ArrayIntToString.java
 
 
-RUN javac Random_String.java
+RUN javac ArrayIntToString.java
 
 CMD ["java", "ArrayIntToString"]
