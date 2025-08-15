@@ -10,9 +10,9 @@ LABEL build_date="2025-08-14"
 WORKDIR /app
 
 
-COPY src/Random_String.java /app/Random_String.java
+COPY src/ArrayIntToString /app/ArrayIntToString.java
 
 
 RUN javac Random_String.java
 
-CMD ["java", "Random_String"]
+CMD ["java", "ArrayIntToString"]
